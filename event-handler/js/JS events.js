@@ -2,6 +2,7 @@ function transformUpperCase(_val){
     return _val.toUpperCase();
 }
 
+//DOM event listener
 let elNamaPengguna = document.getElementById("namaPengguna")
 elNamaPengguna.addEventListener("keyup",function(){
     elNamaPengguna.value = transformUpperCase(elNamaPengguna.value)
