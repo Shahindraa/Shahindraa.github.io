@@ -1,4 +1,4 @@
-let elLocate = docmumet.getElementById("btnLocate")
+let elLocate = document.getElementById("btnLocate")
 elLocate.addEventListener("click", function(){
    
 
