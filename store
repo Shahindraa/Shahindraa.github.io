@@ -1,0 +1,29 @@
+ function LoadMultipleUsers(userCount){
+    let url ="https://randomuser.me/api/?results=" + userCount
+
+    fetch(url)
+    .then((response) => response.json())
+    .then(data => {
+        let allUsers = document.getElementById("allUsers")
+
+        for(let i = 0; i < data.results.length; i++){
+            let fn = '<div>'
+            let fn = '<div>' + data.results[i].name.first
+            ln.innerHTML = data.results[i].name.last
+            phone.innerHTML = data.results[i].phone
+            img.src = data.results[i].picture.large
+        }
+    })
+
+} 
+
+// fetch html
+
+
+let elLoadMultipleUsers = document.getElementById("getMultipleUser")
+elLoadMultipleUsers.addEventListener("click", function(){
+    let userCount = document.getElementById("userCount")
+    LoadMultipleUsers(userCount.value)
+})
+
+// fetch js
