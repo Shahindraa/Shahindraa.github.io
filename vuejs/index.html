@@ -41,6 +41,9 @@
         <ol>
             <grocery-list v-for="item in groceryList" v-bind:todo="item" v-bind:key="item.id"></grocery-list>
         </ol>
+        <ol>
+            <grocery-list v-for="item in orderList" v-bind:todo="item" v-bind:key="item.id"></grocery-list>
+        </ol>
     </div>
 
     <script src="js/grocery-list.js"></script>

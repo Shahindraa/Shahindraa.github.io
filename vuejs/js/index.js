@@ -51,16 +51,30 @@ let app5 = new Vue({
                 desc: "Rocket Salad"
             },
             {
-                id: 1,
+                id: 2,
                 desc: "Cheese"
             },
             {
-                id: 1,
+                id: 3,
                 desc: "Ramen"
             },
             {
-                id: 1,
+                id: 4,
                 desc: "Ice Lemon Tea"
+            }
+        ],
+        orderList: [
+            { 
+                id: 1,
+                desc: "Nasi Lemak"
+            },
+            { 
+                id: 2,
+                desc: "Nasi Kerabu"
+            },
+            { 
+                id: 3,
+                desc: "Rojak Ayam"
             }
         ]
     }
