@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earring Booking- Main Page</title>
+    <title>Earring Booking- Shipping Policy Page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
@@ -21,31 +21,31 @@
                     <a href="https://www.transatlanticclay.co.uk/app/uploads/2021/08/artsy-eclipse.jpg" target="_blank">
                         <img src="https://www.transatlanticclay.co.uk/app/uploads/2021/08/artsy-eclipse.jpg"
                             alt="Avatar" class="avatar">
-                        <a class="navbar-brand" href="index.html"> Shahindra's Clay Earrings </a>
+                        <a class="navbar-brand headRgb textAlign customFont textSize" href="index.html"> Shahindra's Clay Earrings </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse cont" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">About Us</a>
+                                    <a class="nav-link" style="color:sandybrown" href="index.html">About Us</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="productsBooking.html">Products</a>
+                                    <a class="nav-link" style="color:sandybrown" href="productsBooking.html">Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="bookedItems.html">Booked Items</a>
+                                    <a class="nav-link" style="color:sandybrown" href="bookedItems.html">Booked Items</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="more.html" id="navbarDropdown"
+                                    <a class="nav-link dropdown-toggle" style="color:sandybrown" href="more.html" id="navbarDropdown"
                                         role="button" data-toggle="dropdown" aria-expanded="false">
                                         More
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="shippingPolicy.html ">Shipping Policy</a>
-                                        <a class="dropdown-item" href="toContact.html">To Contact</a>
+                                    <div class="dropdown-menu cont" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" style="color:sandybrown" href="shippingPolicy.html ">Shipping Policy</a>
+                                        <a class="dropdown-item" style="color:sandybrown" href="toContact.html">To Contact</a>
                                     </div>
                                 </li>
                             </ul>
@@ -56,9 +56,9 @@
         <!--JUMBOTRON-->
         <div class="row">
             <div class="col">
-                <div class="jumbotron jumbotron-fluid">
+                <div class="jumbotron jumbotron-fluid" id="hexColor" style="font-style: italic;">
                     <div class="container-fluid">
-                        <h1 class="display-4">Shipping Policy</h1>
+                        <h1 class="display-4 textShadow">Shipping Policy</h1>
                         <p class="lead">Thank you for visiting and shopping at <span
                                 style="font-weight:bold;">Shahindra's Clay
                                 Earrings.</span> Following are the terms and conditions that constitute our shipping
@@ -68,28 +68,32 @@
             </div>
 
             <!--Container for shipping policy-->
-            <div class="container-fluid">
-                <h5>Shipment Process</h5>
+            <div class="container-fluid borderSolid">
+                <h5 class=>Shipment Process</h5>
                 <p class="lead">All orders are processed within 2-3 business days. One email for order confirmation and
                     another email after order prepared will be sent to the email provided by user. Since this is a <span
                         style="font-weight:bold;">Pre Booking or Pre Order</span> website, all order's will take 2-3
                     weeks of delivery time. Orders are not shipped on weekends or holidays. </p>
-
-                <h5>Shipping Fee</h5>
+            </div>
+            <div class="container-fluid borderSolid">    
+            <h5>Shipping Fee</h5>
                 <p class="lead">Order has usual Rm3.00 shipping fee rate. However for order above 5 quantity, shipping
                     fee would be
                     rm5.00. Kindly do take note on this. </p>
-
+            </div>
+            <div class="container-fluid borderSolid">
                 <h5>Damages/Losses</h5>
                 <p class="lead">If you find parcel is damaged in-transit or lost in-transit, get in touch with our
                     customer service at shahindrasclayearrings@gmail.com</p>
-
+            </div>
+            <div class="container-fluid borderSolid">
                 <h5>Return/Refund</h5>
                 <p class="lead">Return and refund is only available in case o damaged parcel in-transit.</p>
             </div>
-            
-            <a href="bookedItems.html" class="btn btn-info button float-right" role="button" >Previous Page</a>           
-            <a href="toContact.html" class="btn btn-info button float-left" role="button" >Next Page</a>
+           
+        </div>
+            <a href="bookedItems.html" class="btn btn-info button float-left" role="button" >Previous Page</a>           
+            <a href="toContact.html" class="btn btn-info button float-right" role="button" >Next Page</a>
             
             <!--Footer-->
             <footer class="container-fluid">
@@ -102,7 +106,7 @@
                     </li>
                 </ul>
             </footer>
-        </div>
+        
 
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -111,6 +115,7 @@
             integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
             crossorigin="anonymous"></script>
         <script src="js/index.js"></script>
+        </div>
 
 </body>
 

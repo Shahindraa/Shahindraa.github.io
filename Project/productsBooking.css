@@ -40,12 +40,17 @@
   }
 
   .bg-1 {
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
+    background-color: aquamarine; /* Green */
+    color: #1d1b16;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .bg-2 {
     background-color: maroon; /* Green */
+    color: #ffffff;
+  }
+  .bg-3 {
+    background-color: brown; /* Green */
     color: #ffffff;
   }
 
@@ -61,6 +66,8 @@
     width:100%;
     float:left;
     padding: 40px, 0px, 0px, 0px;
+    background-color: aquamarine;
+    
   }
 
   body {
@@ -68,4 +75,37 @@
     background-repeat:repeat;
     background-position: top right;
     background-attachment:scroll;
+  } 
+  #hexColor {
+    background-color:aquamarine;
   }
+
+  .headRgb {
+    background-color: bisque;
+    
+  }
+  .textAlign {
+    position:center;
+  }
+  
+  @font-face {
+    font-family:"Lobster";
+    src:url("Lobster-Regular.woff2")
+  } 
+  
+  .customFont {
+    color:maroon;
+    font-family:"Lobster";
+  } 
+  
+  .textSize {
+    font-size: 2em;
+  }
+
+  .cont {
+    background-color: firebrick;
+  }
+
+  .textShadow {
+    text-shadow: 5px 15px 5px blue;
+}

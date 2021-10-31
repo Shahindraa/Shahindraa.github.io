@@ -15,6 +15,8 @@
     width:100%;
     float:left;
     padding: 40px, 0px, 0px, 0px;
+    background-color:aquamarine;
+
   }
   body {
     background-image:url("https://img.wallpapersafari.com/desktop/1536/864/78/33/mi18Yw.jpg");
@@ -23,15 +25,47 @@
     background-attachment:scroll;
   }
 
- /* .bg-1 {
-    background-color: #1abc9c; /* Green */
-  /*  color: #ffffff;
-  } 
- /* .bg-2 {
-    background-color: #474e5d; /* Dark Blue */
- /*   color: #ffffff;
+  .headRgb {
+    background-color: bisque;
+    
   }
- /* .bg-3 {
-    background-color: #ffffff; /* White */
- /*   color: #555555;
+  .textAlign {
+    position:center;
+  }
+  
+  @font-face {
+    font-family:"Lobster";
+    src:url("Lobster-Regular.woff2")
   } 
+  
+  .customFont {
+    color:maroon;
+    font-family:"Lobster";
+  } 
+  
+  .textSize {
+    font-size: 2em;
+  } 
+  #hexColor {
+    background-color:aquamarine;
+  }
+
+  .cont {
+    background-color: firebrick;
+  }
+
+  .textItalic {
+    font-style:italic;
+  }
+
+  .borderSolid {
+    border: 1px blueviolet solid; 
+    border-radius:10px;
+    box-shadow: 5px 5px 5px darkseagreen;
+    background-color:palegoldenrod;
+  }
+
+  .textShadow {
+      text-shadow: 5px 15px 5px blue;
+  }
+
