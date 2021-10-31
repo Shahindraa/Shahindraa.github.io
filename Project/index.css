@@ -16,6 +16,12 @@
     float:left;
     padding: 40px, 0px, 0px, 0px;
   }
+  body {
+    background-image:url("https://img.wallpapersafari.com/desktop/1536/864/78/33/mi18Yw.jpg");
+    background-repeat:repeat;
+    background-position: top right;
+    background-attachment:scroll;
+  }
 
  /* .bg-1 {
     background-color: #1abc9c; /* Green */
